@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">StudentDataBase</string>
+    <string name="va">Enter the Roll Number</string>
+    <string name="ib">Enter the name</string>
+    <string name="hav">Enter the Marks</string>
+    <string name="v">Enter the Roll :</string>
+    <string name="vai">Enter the Roll number</string>
+    <string name="a">Enter Roll</string>
+    <string name="PASS">ENTER PASSWORD</string>
+    <string name="UN">ENTER USERNAME</string>
+</resources>

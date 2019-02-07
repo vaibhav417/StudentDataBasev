@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image8"
+    android:orientation="vertical"
+    tools:context=".MainActivity4">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:padding="10sp"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:layout_gravity="center"
+        android:text="Student Details" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:rowCount="3">
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:padding="10sp"
+            android:text="Roll Number : " />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:ems="10"
+            android:hint="@string/a"
+            android:drawableEnd="@drawable/ic_menu_black_24dp"
+            />
+
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:padding="10sp"
+            android:text="Name : " />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:drawableEnd="@drawable/ic_mode_edit_black_24dp"
+            android:textColor="#000000"
+            android:ems="10"
+            android:hint="@string/ib" />
+
+        <TextView
+            android:id="@+id/textview3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:padding="10sp"
+            android:text="Marks : " />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:drawableEnd="@drawable/ic_open_in_new_black_24dp"
+            android:textColor="#000000"
+            android:ems="10"
+            android:hint="@string/hav" />
+
+    </GridLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="20dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/bAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="Add" />
+
+            <Button
+                android:id="@+id/bDelete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:text="Delete" />
+            <Button
+                android:id="@+id/bVA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                android:text="View All" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/bModify"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="Modify" />
+
+            <Button
+                android:id="@+id/bView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:text="View" />
+
+            <Button
+                android:id="@+id/bShow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:text="Show" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="bt"
+        />
+
+</LinearLayout>
